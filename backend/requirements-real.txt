@@ -1,0 +1,10 @@
+# Optional "real model" perception path (YOLOv8n).
+# Not required for the demo/fallback pipeline — install only if you want
+# real pretrained-model inference instead of the classical-CV fallback.
+#
+#   pip install -r requirements.txt -r requirements-real.txt
+#
+# Pulls in torch/torchvision (large). yolov8n.pt (~6MB) auto-downloads from
+# Ultralytics on first use of the real perception path and requires internet
+# access at that point.
+ultralytics>=8.3
